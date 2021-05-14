@@ -2,7 +2,7 @@
 
 ## Excel Pivot Tables and Pivot Charts
 
-This project required me to organize and analyze a database of 4,200 past Kickstarter campaigns to incover any hidden trends. Kickstarter has been hugely successful as a crowdfunding service, but all of the projects have not seen success. To get funded through a Kickstarter project, the funding must be equal to or greater than the orignal goal. Only one third of all Kickstarter campaigns find enough funding for a positive outcome. For this reason, companies will spend months researching past projects to uncover successfull trends.  
+This project required me to organize and analyze a database of 4,200 past Kickstarter campaigns to incover any hidden trends. Kickstarter has been hugely successful as a crowdfunding service, but all of the projects have not seen success. To get funded through a Kickstarter project, the funding must be equal to or greater than the orignal set goal. Only one third of all Kickstarter campaigns find enough funding to go into production. For this reason, companies will spend months researching past projects to uncover successfull trends.  
 
 ### Task 1: Organize / Stylize Dataset
 
@@ -22,11 +22,11 @@ For this section of the challenge, I had to modify the provided table with the u
 
 ### Task 2: Create Category Pivot Table / Pivot Chart
 
-Now that the original dataset has be altered to better identify trends in Kickstarter campaigns, I now have to create some visualizations to communicate what those trends are. First I have to make a bar chart that looks at the categories of the projects. The steps to create the category pivot table and pivot chart are as follows.
-* Create a new sheet in the workbook and name it Categories.
+Now that the original dataset was modified to better identify Kickstarter campaign trends, I now had to create some visualizations to communicate what those trends are. First I had to make a stacked pivot bar chart that looked at the categories of the projects. The steps I took to create the category pivot table and pivot chart are as follows.
+* Create a new sheet in the workbook and name it Kickstarter Categories.
 * Add a pivot table to the new sheet that analyzes the orignal worksheets category column.
-* Count how many of the category projects are successful, failed, canceled or are still active (live).
-* Create a, filterable by country, stacked column pivot chart based on the created pivot table 
+* Count how many of the category projects were successful, failed, canceled or are still active (live).
+* Create a, filterable by country, stacked column pivot chart based on the created pivot table. 
 
 <p align="center">
     <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/MDScreenCaptures/CategoryCapture.JPG?raw=true">
@@ -34,8 +34,8 @@ Now that the original dataset has be altered to better identify trends in Kickst
 
 ### Task 3: Create Sub Category Pivot Table / Pivot Chart
 
-Similarly to task two, I have to create a visualization that communicates the success rate of the sub-categories in the Kickstarter campaigns. For this I will make a stacked bar pivot chart, similartly to the category chart, that looks at the sub-categories of the projects. The steps to create the sub-category pivot table and pivot chart are as follows.
-* Create a new sheet in the workbook and name it Sub-Categories.
+Similarly to task two, I had to create a visualization that communicated the success rate of the sub-categories in Kickstarter campaigns. For this I had to make a stacked bar pivot chart, similarly to the category chart, that looked at the sub-categories of categories in the Kickstarter campaigns. The steps I took to create the sub-category pivot table and pivot chart are as follows.
+* Create a new sheet in the workbook and name it Kickstarter Sub-Categories.
 * Add a pivot table to the new sheet that analyzes the original worksheets sub-category column.
 * Count how many of the sub-category projects were successful, failed, canceled or are still active (live).
 * Create a stacked column pivot chart of the sub-categories that is filters the pivot table by country and parent-category.
