@@ -1,4 +1,4 @@
-# Excel: Kickstarter Projects Analysis
+# Excel: Kickstarter Campaigns Analysis
 
 ## Excel Pivot Tables and Pivot Charts
 
@@ -14,6 +14,10 @@ For this section of the challenge, I had to modify and analyze the provided tabl
 * Create column letters "Q" / "R", name them Category / Sub-Category and use a formula to split sub-category from category
 while placing them into the corresponding cells.
 
+<p align="center">
+    <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/MDScreenCaptures/RawDataCapture.JPG?raw=true">
+</p>
+
 ### Task 2: Create Category Pivot Table / Pivot Chart
 
 Now that the original dataset has be altered to better identify trends in Kickstarter campaigns, I now have to create some visualizations to communicate what those trends are.  First I have to make a bar chart that looks at the categorys of the projects.  The steps to create the category pivot table and pivot chart are as follows.
@@ -22,6 +26,9 @@ Now that the original dataset has be altered to better identify trends in Kickst
 * Count how many of the projects are successful, failed, canceled or still active (live) per category.
 * Create a, filterable by country, stacked column pivot chart based on the created pivot table 
 
+<p align="center">
+    <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/MDScreenCaptures/CategoryCapture.JPG?raw=true">
+</p>
 
 ### Task 3: Create Sub Category Pivot Table / Pivot Chart
 
@@ -30,6 +37,10 @@ Create a stacked column pivot chart that can be filtered by country and parent-c
 The dates stored within the deadline and launched_at columns use Unix timestamps. Fortunately for us, there is a formula that can be used to convert these timestamps to a normal date.
 Create a new column named Date Created Conversion that will use this formula to convert the data contained within launched_at into Excel's date format.
 Create a new column named Date Ended Conversion that will use this formula to convert the data contained within deadline into Excel's date format.
+
+<p align="center">
+    <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/MDScreenCaptures/SubCategoryCapture.JPG?raw=true">
+</p>
 
 ### Timeline
 
