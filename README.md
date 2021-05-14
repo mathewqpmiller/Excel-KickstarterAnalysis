@@ -14,7 +14,7 @@ For this section of the challenge, I had to modify the provided table with the u
 * Create columns in letters Q and R, name them "Category" and "Sub-Category".
 * Create a formula to seperate the sub-category from category and place them in the corresponding column.
 * Create columns in letter S and T, name them "Date Created Converstion" and "Date Ended Conversion".
-* Create a formula that will convert the data in the launched_at and deadline columns into time date format. Have the converted data placed into the corresponding Date Created and Date Ended Conversion columns
+* Create a formula that converts the Unix Timestamp in launched_at and deadline columns to normal dates and place into the appropriate column.
 
 <p align="center">
     <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/MDScreenCaptures/RawDataCapture.JPG?raw=true">
@@ -81,5 +81,9 @@ Using the COUNTIFS() formula, count how many successful, failed, and canceled pr
 Add up each of the values in the Number Successful, Number Failed, and Number Canceled columns to populate the Total Projects column. Then, using a mathematical formula, find the percentage of projects that were successful, failed, or canceled per goal range.
 Create a line chart that graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
 
-
-UNIVERSITY OF OREGON: Data Analytics Boot Camp - Repository for activity 1(Excel Challenge)
+<p align="center">
+UNIVERSITY OF OREGON: Data Analytics Boot Camp - Repository for project 1(Excel Challenge)
+</p>
+<p align="center">
+Mathew Miller © 2021. All Rights Reserved.
+</p>
