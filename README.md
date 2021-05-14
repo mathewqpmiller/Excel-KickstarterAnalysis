@@ -44,21 +44,22 @@ Similarly to task two, I had to create a visualization that communicated the suc
     <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/MDScreenCaptures/SubCategoryCapture.JPG?raw=true">
 </p>
 
-### Timeline
+### Task 4: Create Timeline Pivot Table / Pivot Chart
 
-Create a new sheet with a pivot table with a column of state, rows of Date Created Conversion, values based on the count of state, and filters based on parent category and Years.
+For this task I had to create a timeline of the Kickstarter campaigns. The purpose of the timeline was to communicate how many campaigns were successful, un-successful or canceled over a period of time. Further, the timeline needed to be filterable by category and year to better understand how these affected the overall trend. The steps I took to create the timeline pivot table and pivot chart are as follows.
+* Create a new sheet in the workbook and name it Kickstarter Timeline
+* Add a pivot table to the new sheet that analyzes the original worksheets state column and corresponding Date Created row.
+* Create a multi-line pivot chart, based on the pivot table, that is filterable by year and category.
+th a pivot table with a column of state, rows of Date Created Conversion, values based on the count of state, and filters based on parent category and Years.
 Now create a pivot chart line graph that visualizes this new table.
-Create a report in Microsoft Word and answer the following questions.
-Given the provided data, what are three conclusions we can draw about Kickstarter campaigns?
-What are some limitations of this dataset?
-What are some other possible tables and/or graphs that we could create?
 
 <p align="center">
     <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/MDScreenCaptures/TimelineCapture.JPG?raw=true">
 </p>
 
-### Bonus
+### Task 5: Create Success Rate Vs Funding Goal Chart
 
+I now had to create another visualization that would communicate the percent of successful projects vs the orignal set goal for funding. 
 Create a new sheet with 8 columns:
 Goal
 Number Successful
@@ -88,6 +89,13 @@ Create a line chart that graphs the relationship between a goal's amount and its
 <p align="center">
     <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/MDScreenCaptures/BonusCapture.JPG?raw=true">
 </p>
+
+### Task 6: Final Analysis and Recommendations
+
+Create a report in Microsoft Word and answer the following questions.
+Given the provided data, what are three conclusions we can draw about Kickstarter campaigns?
+What are some limitations of this dataset?
+What are some other possible tables and/or graphs that we could create?
 
 <p align="center">
 UNIVERSITY OF OREGON: Data Analytics Boot Camp - Repository for project 1(Excel Challenge)
