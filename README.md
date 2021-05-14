@@ -53,6 +53,10 @@ Given the provided data, what are three conclusions we can draw about Kickstarte
 What are some limitations of this dataset?
 What are some other possible tables and/or graphs that we could create?
 
+<p align="center">
+    <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/MDScreenCaptures/TimelineCapture.JPG?raw=true">
+</p>
+
 ### Bonus
 
 Create a new sheet with 8 columns:
@@ -80,6 +84,10 @@ Greater than or equal to 50000
 Using the COUNTIFS() formula, count how many successful, failed, and canceled projects were created with goals within the ranges listed above. Populate the Number Successful, Number Failed, and Number Canceled columns with this data.
 Add up each of the values in the Number Successful, Number Failed, and Number Canceled columns to populate the Total Projects column. Then, using a mathematical formula, find the percentage of projects that were successful, failed, or canceled per goal range.
 Create a line chart that graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
+
+<p align="center">
+    <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/MDScreenCaptures/BonusCapture.JPG?raw=true">
+</p>
 
 <p align="center">
 UNIVERSITY OF OREGON: Data Analytics Boot Camp - Repository for project 1(Excel Challenge)
