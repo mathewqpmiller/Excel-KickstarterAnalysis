@@ -6,13 +6,15 @@ This project required me to organize and analyze a database of 4,200 past Kickst
 
 ### Task 1: Organize / Stylize Dataset
 
-For this section of the challenge, I had to modify and analyze the provided table with the use of conditional formatting and column creation. The table had to be readable in such a way as to identify market trends. The steps to create the Excel Table are as follows.
+For this section of the challenge, I had to modify the provided table with the use of conditional formatting and column creation. The table had to be readable in such a way as to identify market trends. In order to better analyze the data, I added color to cells for clearer identification of differences. To more accurately identify trends, I added percent funded, category, sub-categoy, date created conversion and date ended conversion columns. The steps I took to create the Excel Table are as follows.
 * Use conditonal formatting and fill the "state" column cells with colors for successful, failed, canceled or live projects.
-* Create column letter "O", name it Percent Funded and use a formula to display how much money each campaign made. 
-* Use conditional formatting on the "Percent Funded" column and apply a three-color scale of red, green and blue.
-* Create column letter "P", name it Average Donation and have it calculate each campaigns average contribution.
-* Create column letters "Q" / "R", name them Category / Sub-Category and use a formula to split sub-category from category
-while placing them into the corresponding cells.
+* Create column in letter O, name it "Percent Funded" and use a formula to display how much money each campaign made. 
+* Use conditional formatting on the Percent Funded column and apply a three-color scale of red, green and blue.
+* Create column in letter P, name it "Average Donation" and have it calculate each campaigns average pledge.
+* Create columns in letters Q and R, name them "Category" and "Sub-Category".
+* Create a formula to seperate the sub-category from category and place them in the corresponding column.
+* Create columns in letter S and T, name them "Date Created Converstion" and "Date Ended Conversion".
+* Create a formula that will convert the data in the launched_at and deadline columns into time date format. Have the converted data placed into the corresponding Date Created and Date Ended Conversion columns
 
 <p align="center">
     <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/MDScreenCaptures/RawDataCapture.JPG?raw=true">
@@ -20,10 +22,10 @@ while placing them into the corresponding cells.
 
 ### Task 2: Create Category Pivot Table / Pivot Chart
 
-Now that the original dataset has be altered to better identify trends in Kickstarter campaigns, I now have to create some visualizations to communicate what those trends are.  First I have to make a bar chart that looks at the categorys of the projects.  The steps to create the category pivot table and pivot chart are as follows.
-* Create a new sheet in the workbook.
-* Add a pivot table to the new sheet that analyzes the orignal worksheet.
-* Count how many of the projects are successful, failed, canceled or still active (live) per category.
+Now that the original dataset has be altered to better identify trends in Kickstarter campaigns, I now have to create some visualizations to communicate what those trends are. First I have to make a bar chart that looks at the categories of the projects. The steps to create the category pivot table and pivot chart are as follows.
+* Create a new sheet in the workbook and name it Categories.
+* Add a pivot table to the new sheet that analyzes the orignal worksheets category column.
+* Count how many of the category projects are successful, failed, canceled or are still active (live).
 * Create a, filterable by country, stacked column pivot chart based on the created pivot table 
 
 <p align="center">
@@ -32,11 +34,11 @@ Now that the original dataset has be altered to better identify trends in Kickst
 
 ### Task 3: Create Sub Category Pivot Table / Pivot Chart
 
-Create a new sheet with a pivot table that will analyze your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per sub-category.
-Create a stacked column pivot chart that can be filtered by country and parent-category based on the table you have created.
-The dates stored within the deadline and launched_at columns use Unix timestamps. Fortunately for us, there is a formula that can be used to convert these timestamps to a normal date.
-Create a new column named Date Created Conversion that will use this formula to convert the data contained within launched_at into Excel's date format.
-Create a new column named Date Ended Conversion that will use this formula to convert the data contained within deadline into Excel's date format.
+Similarly to task two, I have to create a visualization that communicates the success rate of the sub-categories in the Kickstarter campaigns. For this I will make a stacked bar pivot chart, similartly to the category chart, that looks at the sub-categories of the projects. The steps to create the sub-category pivot table and pivot chart are as follows.
+* Create a new sheet in the workbook and name it Sub-Categories.
+* Add a pivot table to the new sheet that analyzes the original worksheets sub-category column.
+* Count how many of the sub-category projects were successful, failed, canceled or are still active (live).
+* Create a stacked column pivot chart of the sub-categories that is filters the pivot table by country and parent-category.
 
 <p align="center">
     <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/MDScreenCaptures/SubCategoryCapture.JPG?raw=true">
