@@ -60,31 +60,7 @@ Now create a pivot chart line graph that visualizes this new table.
 ### Task 5: Create Success Rate Vs Funding Goal Chart
 
 I now had to create another visualization that would communicate the percent of successful projects vs the orignal set goal for funding. 
-Create a new sheet with 8 columns:
-Goal
-Number Successful
-Number Failed
-Number Canceled
-Total Projects
-Percentage Successful
-Percentage Failed
-Percentage Canceled
-In the Goal column, create 12 rows with the following headers:
-Less than 1000
-1000 to 4999
-5000 to 9999
-10000 to 14999
-15000 to 19999
-20000 to 24999
-25000 to 29999
-30000 to 34999
-35000 to 39999
-40000 to 44999
-45000 to 49999
-Greater than or equal to 50000
-Using the COUNTIFS() formula, count how many successful, failed, and canceled projects were created with goals within the ranges listed above. Populate the Number Successful, Number Failed, and Number Canceled columns with this data.
-Add up each of the values in the Number Successful, Number Failed, and Number Canceled columns to populate the Total Projects column. Then, using a mathematical formula, find the percentage of projects that were successful, failed, or canceled per goal range.
-Create a line chart that graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
+In order to do this I had to create a new sheet with 8 columns.  The columns needed to be (Goal, Number Successful, Number Failed, Number Canceled, Total Projects, Percentage Successful, Percentage Failed, Percentage Canceled). I then had to create, in the "Goal" column, 12 rows with the headers (Less than 1000, 1000 to 4999, 5000 to 9999, 10000 to 14999, 15000 to 19999, 20000 to 24999, 25000 to 29999, 30000 to 34999, 35000 to 39999, 40000 to 44999, 45000 to 49999, Greater than or equal to 50000). Using the COUNTIFS() formula, I needed to count how many successful, failed, and canceled projects were created with goals within the ranges listed above. Then I populated the Number Successful, Number Failed, and Number Canceled columns with this data. After that I added up each of the values in the Number Successful, Number Failed, and Number Canceled columns to populate the Total Projects column. Using a mathematical formula, I found the percentage of projects that were successful, failed, or canceled per goal range. With the new set of data, I then created a line chart that graphed the relationship between a goal's amount and its chances at success, failure, or cancellation.
 
 <p align="center">
     <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/MDScreenCaptures/BonusCapture.JPG?raw=true">
@@ -92,10 +68,7 @@ Create a line chart that graphs the relationship between a goal's amount and its
 
 ### Task 6: Final Analysis and Recommendations
 
-Create a report in Microsoft Word and answer the following questions.
-Given the provided data, what are three conclusions we can draw about Kickstarter campaigns?
-What are some limitations of this dataset?
-What are some other possible tables and/or graphs that we could create?
+Create a report in Microsoft Word and answer the following questions. Given the provided data, what are three conclusions we can draw about Kickstarter campaigns? What are some limitations of this dataset? What are some other possible tables and/or graphs that we could create? Please click on the link http://bit.ly/KickstarterAnalysisReport to see my complete report with a full analysis of my findings.
 
 <p align="center">
 UNIVERSITY OF OREGON: Data Analytics Boot Camp - Repository for project 1(Excel Challenge)
