@@ -17,7 +17,7 @@ For this section of the challenge, I had to modify the provided table with the u
 * Create a formula that converts the Unix Timestamp in launched_at and deadline columns to normal dates and place into the appropriate column.
 
 <p align="center">
-    <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/MDScreenCaptures/RawDataCapture.JPG?raw=true">
+    <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/Resources/Images/RawDataCapture.JPG?raw=true">
 </p>
 
 ### Task 2: Create Category Pivot Table / Pivot Chart
@@ -29,7 +29,7 @@ Now that the original dataset was modified to better identify Kickstarter campai
 * Create a, filterable by country, stacked column pivot chart based on the created pivot table. 
 
 <p align="center">
-    <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/MDScreenCaptures/CategoryCapture.JPG?raw=true">
+    <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/Resources/Images/CategoryCapture.JPG?raw=true">
 </p>
 
 ### Task 3: Create Sub Category Pivot Table / Pivot Chart
@@ -41,7 +41,7 @@ Similarly to task two, I had to create a visualization that communicated the suc
 * Create a stacked column pivot chart of the sub-categories that is filters the pivot table by country and parent-category.
 
 <p align="center">
-    <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/MDScreenCaptures/SubCategoryCapture.JPG?raw=true">
+    <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/Resources/Images/SubCategoryCapture.JPG?raw=true">
 </p>
 
 ### Task 4: Create Timeline Pivot Table / Pivot Chart
@@ -54,7 +54,7 @@ th a pivot table with a column of state, rows of Date Created Conversion, values
 Now create a pivot chart line graph that visualizes this new table.
 
 <p align="center">
-    <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/MDScreenCaptures/TimelineCapture.JPG?raw=true">
+    <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/Resources/Images/TimelineCapture.JPG?raw=true">
 </p>
 
 ### Task 5: Create Success Rate Vs Funding Goal Chart
@@ -63,12 +63,12 @@ I now had to create another visualization that would communicate the percent of 
 In order to do this I had to create a new sheet with 8 columns.  The columns needed to be (Goal, Number Successful, Number Failed, Number Canceled, Total Projects, Percentage Successful, Percentage Failed, Percentage Canceled). I then had to create, in the "Goal" column, 12 rows with the headers (Less than 1000, 1000 to 4999, 5000 to 9999, 10000 to 14999, 15000 to 19999, 20000 to 24999, 25000 to 29999, 30000 to 34999, 35000 to 39999, 40000 to 44999, 45000 to 49999, Greater than or equal to 50000). Using the COUNTIFS() formula, I needed to count how many successful, failed, and canceled projects were created with goals within the ranges listed above. Then I populated the Number Successful, Number Failed, and Number Canceled columns with this data. After that I added up each of the values in the Number Successful, Number Failed, and Number Canceled columns to populate the Total Projects column. Using a mathematical formula, I found the percentage of projects that were successful, failed, or canceled per goal range. With the new set of data, I then created a line chart that graphed the relationship between a goal's amount and its chances at success, failure, or cancellation.
 
 <p align="center">
-    <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/MDScreenCaptures/BonusCapture.JPG?raw=true">
+    <img width="700" alt="level1" src="https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/Resources/Images/BonusCapture.JPG?raw=true">
 </p>
 
 ### Task 6: Final Analysis and Recommendations
 
-Create a report in Microsoft Word and answer the following questions. Given the provided data, what are three conclusions we can draw about Kickstarter campaigns? What are some limitations of this dataset? What are some other possible tables and/or graphs that we could create? Please click on the link https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/Resources/Analysis/KickstarterAnalysis.md to see my complete report with a full analysis of my findings.
+Create a report in Microsoft Word and answer the following questions. Given the provided data, what are three conclusions we can draw about Kickstarter campaigns? What are some limitations of this dataset? What are some other possible tables and/or graphs that we could create? Please click on the link http://bit.ly/ExcelKickstarterAnalysis to see my complete report with a full analysis of my findings.
 
 <p align="center">
 UNIVERSITY OF OREGON: Data Analytics Boot Camp - Repository for project 1(Excel Challenge)
