@@ -68,7 +68,7 @@ In order to do this I had to create a new sheet with 8 columns.  The columns nee
 
 ### Task 6: Final Analysis and Recommendations
 
-Create a report in Microsoft Word and answer the following questions. Given the provided data, what are three conclusions we can draw about Kickstarter campaigns? What are some limitations of this dataset? What are some other possible tables and/or graphs that we could create? Please click on the link http://bit.ly/KickstarterAnalysisReport to see my complete report with a full analysis of my findings.
+Create a report in Microsoft Word and answer the following questions. Given the provided data, what are three conclusions we can draw about Kickstarter campaigns? What are some limitations of this dataset? What are some other possible tables and/or graphs that we could create? Please click on the link https://github.com/mathewqpmiller/Excel-KickstarterAnalysis/blob/main/Resources/Analysis/KickstarterAnalysis.md to see my complete report with a full analysis of my findings.
 
 <p align="center">
 UNIVERSITY OF OREGON: Data Analytics Boot Camp - Repository for project 1(Excel Challenge)
