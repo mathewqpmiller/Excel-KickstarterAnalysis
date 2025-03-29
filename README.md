@@ -5,7 +5,9 @@ This repository is no longer maintained and is preserved for reference only. No 
 
 ## Excel Pivot Tables and Pivot Charts
 
-This project required me to organize and analyze a database of 4,200 past Kickstarter campaigns to incover any hidden trends. Kickstarter has been hugely successful as a crowdfunding service, but all of the projects have not seen success. To get funded through a Kickstarter project, the funding must be equal to or greater than the orignal set goal. Only one third of all Kickstarter campaigns find enough funding to go into production. For this reason, companies will spend months researching past projects to uncover successfull trends.  
+This project involved organizing and analyzing a dataset of 4,200 past Kickstarter campaigns to uncover hidden trends and patterns in project success. While Kickstarter has proven to be a powerful crowdfunding platform, not all projects reach their funding goals. To be considered successful, a campaign must meet or exceed its original funding target.
+
+Historically, only about one-third of Kickstarter campaigns are successfully funded. Because of this, companies often invest time in analyzing past campaigns to identify strategies and trends that lead to success. This analysis was conducted in Excel, focusing on funding outcomes across various categories.
 
 ### Task 1: Organize / Stylize Dataset
 
