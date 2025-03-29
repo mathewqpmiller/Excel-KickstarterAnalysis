@@ -1,5 +1,8 @@
 # Excel: Kickstarter Campaigns Analysis
 
+**[ARCHIVED]**  
+This repository is no longer maintained and is preserved for reference only. No further updates, issues, or pull requests will be accepted.
+
 ## Excel Pivot Tables and Pivot Charts
 
 This project required me to organize and analyze a database of 4,200 past Kickstarter campaigns to incover any hidden trends. Kickstarter has been hugely successful as a crowdfunding service, but all of the projects have not seen success. To get funded through a Kickstarter project, the funding must be equal to or greater than the orignal set goal. Only one third of all Kickstarter campaigns find enough funding to go into production. For this reason, companies will spend months researching past projects to uncover successfull trends.  
